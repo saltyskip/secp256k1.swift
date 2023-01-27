@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'Secp256k1'
   s.version          = '0.10.0'
   s.summary          = 'A short description of secp256k1.'
+  s.author           = { 'Andrei Terentiev' => 'andrei@bitcoin.com' } 
   s.homepage         = 'https://github.com/saltyskip/secp256k1.swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.source           = { :git => 'https://github.com/saltyskip/secp256k1.swift', :tag => s.version.to_s }
